@@ -12,7 +12,7 @@ Note: On MAC you need software (e.g. Krabiner) to sync CAPS led between all keyb
 
 
 
-Connect an Vishay TSOP38238, 38kHz IR Receiver to D4, VCC and GND pins of the ATmega32U4 Pro Micro board.
+Connect a Vishay TSOP38238, 38kHz IR Receiver to D4, VCC and GND pins of the ATmega32U4 Pro Micro board.
 
 
 
