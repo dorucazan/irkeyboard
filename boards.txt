@@ -1,0 +1,39 @@
+# copied from leonardo board configuration
+
+
+##############################################################
+
+irkeyboard.name=IR Keyboard
+irkeyboard.vid.0=0x1209
+irkeyboard.pid.0=0xA007
+
+irkeyboard.upload.tool=avrdude
+irkeyboard.upload.protocol=avr109
+irkeyboard.upload.maximum_size=28672
+irkeyboard.upload.maximum_data_size=2560
+irkeyboard.upload.speed=57600
+irkeyboard.upload.disable_flushing=true
+irkeyboard.upload.use_1200bps_touch=true
+irkeyboard.upload.wait_for_upload_port=true
+
+irkeyboard.bootloader.tool=avrdude
+irkeyboard.bootloader.low_fuses=0xff
+irkeyboard.bootloader.high_fuses=0xd8
+irkeyboard.bootloader.extended_fuses=0xcb
+irkeyboard.bootloader.file=caterina/Caterina-Leonardo.hex
+irkeyboard.bootloader.unlock_bits=0x3F
+irkeyboard.bootloader.lock_bits=0x2F
+
+irkeyboard.build.mcu=atmega32u4
+irkeyboard.build.f_cpu=16000000L
+irkeyboard.build.vid=0x1209
+irkeyboard.build.pid=0xA007
+irkeyboard.build.usb_manufacturer="Lion Tech Solutions"
+irkeyboard.build.usb_product="IR Keyboard V2.0"
+irkeyboard.build.board=AVR_LEONARDO
+irkeyboard.build.core=arduino
+irkeyboard.build.variant=leonardo
+irkeyboard.build.extra_flags={build.usb_flags}
+
+##############################################################
+
