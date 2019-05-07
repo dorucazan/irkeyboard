@@ -10,7 +10,7 @@ Note: On MAC you need software (e.g. https://pqrs.org/osx/karabiner/) to sync CA
 <br/>
 <br/>
 <br/>
-Schematic:<br/>
+[Schematic](https://github.com/dorucazan/irkeyboard/blob/master/IRKeyboard%20schematic.png):<br/>
 Connect a Vishay TSOP38238, 38kHz IR Receiver to D4, VCC and GND pins of the ATmega32U4 Pro Micro board.<br/>
 <br/>
 <br/>
