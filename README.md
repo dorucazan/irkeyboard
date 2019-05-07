@@ -14,5 +14,8 @@ Schematic:<br/>
 Connect a Vishay TSOP38238, 38kHz IR Receiver to D4, VCC and GND pins of the ATmega32U4 Pro Micro board.<br/>
 <br/>
 <br/>
+Boards you can use:<br/>
+- [Pro Micro - 5V/16MHz](https://www.sparkfun.com/products/12640)<br/>
+- [Adafruit ItsyBitsy 32u4 - 5V 16MHz](https://www.adafruit.com/product/3677)<br/>
 <br/>
 MIT license
